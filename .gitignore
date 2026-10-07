@@ -9,3 +9,6 @@ __pycache__/
 /docs/Aide_Memoire_Machine_Learning.html
 # Dépôt Git indépendant (a son propre .git)
 /regression/
+
+# Journaux de progression personnels (restent en local)
+PROGRESS.md
