@@ -1,6 +1,10 @@
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import streamlit as st
+
+DATA_PATH = Path(__file__).parent / "data" / "online_retail.csv"
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
@@ -115,7 +119,7 @@ def label_clusters(rfm: pd.DataFrame) -> dict:
 
 @st.cache_resource
 def get_data():
-    df_clean = load_and_clean("data/online_retail.csv")
+    df_clean = load_and_clean(DATA_PATH)
     rfm = build_rfm(df_clean)
     rfm, pca_df, scaler, kmeans, pca, variance_ratio = run_clustering(rfm)
     segment_names = label_clusters(rfm)
