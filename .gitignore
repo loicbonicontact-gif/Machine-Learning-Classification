@@ -5,8 +5,8 @@ __pycache__/
 # Anciens dossiers par module, archives locales (contenu fusionné dans notebooks/, data/, dashboard/)
 /archive/
 
-# Aide-mémoire personnel, non lié au projet suivi sur GitHub
-/docs/Aide_Memoire_Machine_Learning.html
+# Documents perso (aide-mémoire, PDF de cours), non liés au projet suivi sur GitHub
+/docs/
 # Dépôt Git indépendant (a son propre .git)
 /regression/
 
