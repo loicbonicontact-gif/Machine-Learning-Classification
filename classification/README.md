@@ -7,8 +7,7 @@ complet de bout en bout (analyse de données → modèle → dashboard).
 
 | Dossier / fichier | Description |
 |---|---|
-| `notebooks/nb_01_...` | Introduction au ML : prétraitement de données. |
-| `notebooks/nb_02_...` | Apprentissage supervisé : classification (5 modèles comparés sur Iris). |
+| `../entrainement/classification/` | Notebooks d'entraînement nb_01 (prétraitement) et nb_02 (classification sur Iris). |
 | `notebooks/nb_03_...` | **Projet CrediTrust Scoring** : modélisation du risque de crédit. |
 | `dashboard/` | Application Streamlit connectée au modèle du projet CrediTrust. |
 | `data/` | Jeux de données utilisés dans les notebooks. |
