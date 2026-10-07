@@ -1,12 +1,12 @@
 # Entraînement
 
-Notebooks de cours et d'exercices de la formation (hors projets livrables).
-Chaque thème garde ses propres `data/` et `assets/` pour que les chemins relatifs fonctionnent.
+Tous les notebooks de cours et d'exercices de la formation, traités.
 
-| Dossier | Contenu |
+| Notebook | Sujet |
 |---|---|
-| `classification/` | nb_01 (prétraitement), nb_02 (classification supervisée) + `titanic.csv`. |
-| `regression/` | nb_01, nb_02, nb_03 (régression, California Housing) + `titanic.csv` et schémas (copie des notebooks de `regression/`). |
-| `non-supervise/` | nb_04 (clustering, K-Means, PCA) + `Mall_Customers.csv` et schémas. |
+| `nb_01_Intro_ML_Prétraitement_Données loic` | Introduction au ML et prétraitement (Titanic). |
+| `nb_02_Apprentissage_Supervisé_Classification loic` | Classification supervisée. |
+| `nb_03_Apprentissage_Supervisé_Regression loic` | Régression (California Housing). |
+| `nb_04_Apprentissage_Non_Supervisé loic` | Clustering, K-Means, PCA (Mall Customers). |
 
-Les notebooks de `entrainement/regression/` sont des **copies** : les originaux restent dans `regression/` (dépôt Git indépendant, inchangé).
+`data/` et `assets/` contiennent les fichiers lus par les notebooks (chemins relatifs `../data/`, `../assets/`).

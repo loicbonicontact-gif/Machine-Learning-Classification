@@ -17,7 +17,7 @@ Dossier du projet : [`classification/`](./classification/) (README détaillé, e
 | `classification/` | Projet CrediTrust Scoring (classification, dashboard Streamlit). |
 | `regression/` | Régression (HabitatPlus, assurance santé). Dépôt Git indépendant, ignoré ici. |
 | `apprentissage-non-supervise/` | Clustering : K-Means, coude, silhouette, hiérarchique, segmentation RFM, dashboard Streamlit. |
-| `entrainement/` | Notebooks de cours et d'exercices (classification, non supervisé), avec leurs données. |
+| `entrainement/` | Les 4 notebooks d'entraînement traités (`nb_01` à `nb_04`), avec leurs données. |
 | `assets/` | Illustrations de cours partagées. |
 | `docs/` | Documents perso (aide-mémoire, non suivi par Git). |
 
