@@ -1,4 +1,4 @@
-# Machine Learning : classification et apprentissage non supervisé
+# Machine Learning : classification, régression et apprentissage non supervisé
 
 Dépôt de formation Data Analyst (Simplon), issu d'un travail d'équipe (dépôt d'origine : `Salma-AZIZ/Machine-Learning-Mise-en-pratique`).
 
@@ -8,14 +8,17 @@ Scoring du risque de crédit pour une banque fictive : 5 modèles de classificat
 
 **Application en ligne : https://creditrust.streamlit.app**
 
-Dossier du projet : [`Machine Learning & Classification /`](./Machine%20Learning%20%26%20Classification%20/) (README détaillé, explications des choix, notebook, dashboard).
+Dossier du projet : [`classification/`](./classification/) (README détaillé, explications des choix, notebooks, dashboard).
 
-## Autres contenus
+## Structure du dépôt
 
 | Dossier | Description |
 |---|---|
-| `Machine Learning & Classification /` | Projet CrediTrust Scoring (classification, dashboard Streamlit). |
-| `Introduction à l'Apprentissage Non Supervisé/` | Clustering : K-Means, méthode du coude, silhouette, classification hiérarchique. |
+| `classification/` | Projet CrediTrust Scoring (classification, dashboard Streamlit). |
+| `regression/` | Régression (HabitatPlus, assurance santé). Dépôt Git indépendant, ignoré ici. |
+| `apprentissage-non-supervise/` | Clustering : K-Means, coude, silhouette, hiérarchique, segmentation RFM, dashboard Streamlit. |
+| `assets/` | Illustrations de cours partagées. |
+| `docs/` | Documents perso (aide-mémoire, non suivi par Git). |
 
 ## Outils
 

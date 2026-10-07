@@ -6,5 +6,6 @@ __pycache__/
 /archive/
 
 # Aide-mémoire personnel, non lié au projet suivi sur GitHub
-/Aide_Memoire_Machine_Learning.html
-/Machine Learning & Régression /
+/docs/Aide_Memoire_Machine_Learning.html
+# Dépôt Git indépendant (a son propre .git)
+/regression/
